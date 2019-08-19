@@ -1,0 +1,19 @@
+<p>Use the form below to update your profile</p>
+<form>
+  <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" />
+  </div>
+  <div>
+    <label for="contact">Contact</label>
+    <input id="contact" type="text" />
+  </div>
+  <div>
+    <label for="bio">Bio</label>
+    <textarea name="" id="bio" cols="30" rows="10"></textarea>
+  </div>
+</form>
+<button (click)="setUserProfile()">Update</button>
+
+<!-- [(ngModel)]="{{ userProfile.name }}" [(ngModel)]="{{ userProfile.contactInfo }}"
+[(ngModel)]="{{ userProfile.bio }}" -->
